@@ -1,0 +1,511 @@
+/* {box-sizing:border-box}  css3*/
+
+body {
+    height: auto;
+    text-transform: capitalize;
+    /* background-color: #6a6a6a; */
+}
+
+
+/*  done but margin auto still هنا لسة مش فاهم الهامش بتاع الكونتينر */
+
+.container {
+    width: 950px;
+    margin: auto;
+    height: auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/* ولا فاهم كلير فكس */
+
+p {
+    line-height: 1.7;
+    color: #444;
+}
+
+h2,
+h3 {
+    color: #777;
+    text-transform: capitalize;
+}
+
+button {
+    border-radius: 5em;
+}
+
+.header .slider {
+    background-image: url(../images/slider.jpg);
+    /*css3 */
+    background-size: cover;
+    background-color: cadetblue;
+    height: 470px;
+    text-align: center;
+}
+
+.header .slider .intro {
+    margin: 0 auto;
+    padding-top: 200px;
+    color: #fff;
+    text-align: center;
+}
+
+.header .slider .intro h2 {
+    margin: 0 auto;
+    font-size: 50px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+    padding: 5px 0;
+    width: 600px;
+    text-align: center;
+    color: #fff;
+}
+
+.header .slider .intro button {
+    background: none;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    border-color: #fff;
+    border: solid;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5em;
+    /* border-radius: 3px; */
+}
+
+.header .navbar {
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+}
+
+.header .navbar h2 {
+    float: left;
+}
+
+.header .navbar h2 span {
+    color: #2ecc71;
+    text-transform: capitalize;
+}
+
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0%;
+    overflow: hidden;
+    float: right;
+}
+
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+}
+
+.header .navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {
+    color: #2ecc71;
+}
+
+.features {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 75px;
+}
+
+.features .feet {
+    float: left;
+    width: 33.33333%;
+    height: 110px;
+    background-color: #fff;
+}
+
+
+/* هنا معملتش دوت عشان عاوز اى براجراف جوه واصلا ده مش ديف */
+
+.features .feet p {
+    color: #888;
+    text-align: justify;
+    /* بتوحد شكل الكلام بس على حساب المسافات */
+    padding: 0 15px 0 0;
+}
+
+.features h2 {
+    color: #5a5a5a;
+    text-transform: capitalize;
+}
+
+.about-me {
+    background-color: rgb(238, 245, 242);
+    overflow: hidden;
+}
+
+.about-me .image {
+    float: left;
+    width: 40%;
+    /* height: 501px; */
+    /* هبقى اشوف طريقة تظبط ارتفاع الصورة */
+}
+
+.about-me .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.about-me .info {
+    float: left;
+    text-align: left;
+    width: 60%;
+    overflow: hidden;
+}
+
+.about-me .info h2 {
+    margin: 40px 0 20px 40px;
+    color: #444;
+}
+
+.about-me .info>p {
+    margin: 0 0 10px 40px;
+}
+
+.about-me .info .hobbies {
+    overflow: hidden;
+    margin: 20px 0 0 40px;
+}
+
+.about-me .info .hobbies h3 {
+    color: #444;
+}
+
+.about-me .info .hobbies p {
+    margin: 0 0 0 20px;
+}
+
+
+/* هنا مش فاهم ليه اول دايركت شايلد 50% بس ظبط اليلة وهما 4 */
+
+.about-me .info .hobbies>div {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+
+.my-skills {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.my-skills .skills h2 {
+    margin: 20px 0 20px 40px;
+    color: #444;
+}
+
+.my-skills .skills p {
+    margin: 0 0 0 40px;
+}
+
+.my-skills button {
+    background: none;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #2ecc71;
+    font-size: 20px;
+    color: c;
+    border: solid;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.my-skills .progress .tec {
+    margin-left: 44px;
+}
+
+.my-skills .progress .tec h3 {
+    color: #333;
+}
+
+.my-skills .progress .tec div {
+    background-color: #d8d4d4;
+    height: 20px;
+    border-radius: 5em;
+}
+
+.my-skills .progress .tec div span {
+    background-color: #2ecc71;
+    height: 20px;
+    /* width: 80%;الصح انك تحط البروجرس فى الhtml */
+    display: block;
+    /*]دى مهمة فشخ عشان الspan عبارة عن بلوك فوق الديف */
+    line-height: 20px;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    border-radius: 5em;
+}
+
+.my-skills .skills,
+.my-skills .progress {
+    float: left;
+    width: 50%;
+}
+
+.resume {
+    background-color: #e9e8e8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.resume p {
+    margin: 10px 10px 10px 10px;
+}
+
+.resume button {
+    background: none;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #2ecc71;
+    font-size: 20px;
+    color: c;
+    border: solid;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.my-education {
+    padding-top: 30px;
+    /* padding-bottom: 30px; */
+    overflow: hidden;
+}
+
+.my-education .main,
+.my-education .progress {
+    float: left;
+    width: 50%;
+    margin-right: 30px;
+}
+
+.exp {
+    padding-top: 5px;
+    /* padding-bottom: 30px;     */
+    text-align: center;
+}
+
+.my-education .exp {
+    width: 45%;
+    overflow: hidden;
+    margin-left: 30px;
+    /* متنساش تظبط المارجن مع العرض فى النسبة المؤية */
+}
+
+.my-education .exp span:first-of-type {
+    color: #999
+}
+
+.my-education .exp>p {
+    margin-bottom: 25px;
+}
+
+.my-education .exp h3 {
+    color: #6A6E71;
+    text-transform: capitalize;
+}
+
+
+/* هنا هتخلى السبان تظهر بلوك عشان ميكونوش على سطر واحد ومتنساش تشيل النقطة لانها مش كلاسس */
+
+.my-education .exp span {
+    display: block;
+}
+
+.my-education .exp hr {
+    width: 90%;
+}
+
+
+/* .my-education .las{margin-top: -50px;} */
+
+.testemonials {
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+/*  ابقا ارجع للحتة دى تانى جربت اذف السطر ده يمكن تفهم بعدين */
+
+.testimonials ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center
+}
+
+.testemonials ul li {
+    /* عشان تحولها من نقط لمربعات */
+    width: 15px;
+    height: 15px;
+    border: 2px solid #2DCC70;
+    /* عشان يظهرو جمب بعض */
+    display: inline-block;
+    /* عشان الماوس يخليها تتلون */
+    cursor: pointer;
+    border-radius: 2em;
+}
+
+.testemonials ul li.active,
+.testemonials ul li:hover {
+    background-color: #2DCC70
+}
+
+.portfolio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.portfolio .our-work {
+    overflow: hidden;
+}
+
+.portfolio .our-work>div {
+    float: left;
+    width: 33.3333333%;
+    margin-bottom: 10px;
+}
+
+.portfolio .our-work>div img {
+    width: 92%;
+    margin: 10px;
+}
+
+.contact {
+    background-color: #252F31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px
+}
+
+.contact .info {
+    width: 50%;
+    margin-right: 5%
+}
+
+.contact h2 {
+    color: #FFF;
+    margin-left: 40px
+}
+
+.contact p {
+    color: #6A6E71;
+    margin-left: 40px
+}
+
+.contact p strong {
+    color: #D1D6DA
+}
+
+.contact .form {
+    width: 45%
+}
+
+.contact .form label {
+    display: block;
+    color: #D1D6DA;
+    margin: 10px 0
+}
+
+.contact .form input[type="text"] {
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px
+}
+
+.contact .form textarea {
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.contact .form input[type="submit"] {
+    background-color: #191E22;
+    color: #FFF;
+    padding: 10px 20px;
+    border: 0;
+    margin-top: 10px
+}
+
+.footer {
+    background-color: #191E22;
+    color: #6A6E71;
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    float: right
+}
+
+.footer ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.footer ul li:hover {
+    color: #2DCC70;
+    /* ابقا شوف طريقة تخلى الايقونات تكبر لما تقف عليها بالماوس     */
+}
+
+p {
+    line-height: 1.7;
+    color: #888
+}
+
+h2,
+h3 {
+    color: #777
+}
+
+.my-button {
+    background: none;
+    border: 3px solid #2DCC70;
+    padding: 10px 30px;
+    color: #2DCC70;
+    font-weight: bold
+}
+
+.fl-left {
+    float: left
+}
+
+.text-center {
+    text-align: center
+}
+
+.clearfix {
+    clear: both
+}
+
+.container {
+    width: 1170px;
+    margin: auto
+}
